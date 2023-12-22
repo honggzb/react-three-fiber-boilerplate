@@ -5,7 +5,7 @@
 1. `npm install`
 2. `npm run start`
 
-**note**: RenderTexture need to install `npm i suspend-react @pmndrs/assets`
+**note**: RenderTexture page need to library 'suspend-react' and '@pmndrs/assets'  <--  `npm i suspend-react @pmndrs/assets`
 
 ### libraries
 
