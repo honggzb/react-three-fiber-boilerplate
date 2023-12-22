@@ -5,6 +5,8 @@
 1. `npm install`
 2. `npm run start`
 
+**note**: RenderTexture need to install `npm i suspend-react @pmndrs/assets`
+
 ### libraries
 
 - [react-three-fiber](https://docs.pmnd.rs/react-three-fiber/getting-started/introduction): React-three-fiber is a React renderer for three.js
