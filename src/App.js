@@ -1,9 +1,7 @@
 import React, { useRef, useState, useEffect, Suspense } from "react";
-import { Canvas } from "react-three-fiber"
+import { Canvas, useFrame } from "react-three-fiber"
 import { HexColorPicker } from "react-colorful";
-import { useGLTF } from "@react-three/drei";
-import { useFrame } from "react-three-fiber";
-import { ContactShadows, OrbitControls, Environment } from "@react-three/drei";
+import { ContactShadows, OrbitControls, Environment, useGLTF } from "@react-three/drei";
 import { proxy, useSnapshot } from "valtio"
 import './App.css';
 
