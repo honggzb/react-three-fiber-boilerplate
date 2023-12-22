@@ -7,7 +7,7 @@
 
 ### libraries
 
-- [react-three-fiber](https://docs.pmnd.rs/react-three-fiber/getting-started/introduction):React-three-fiber is a React renderer for three.js
+- [react-three-fiber](https://docs.pmnd.rs/react-three-fiber/getting-started/introduction): React-three-fiber is a React renderer for three.js
 - [@react-three/drei](https://github.com/pmndrs/drei): A growing collection of useful helpers and fully functional, ready-made abstractions for @react-three/fiber
 - https://docs.pmnd.rs/
 - [react-colorful](https://omgovich.github.io/react-colorful/): --> A tiny color picker component for React and Preact apps
