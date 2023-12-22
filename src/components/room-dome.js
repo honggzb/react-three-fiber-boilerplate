@@ -5,10 +5,11 @@ import { Html, Preload, OrbitControls } from '@react-three/drei'
 //import { Popconfirm } from 'antd'
 
 const store = [
-  { name: 'outside', color: 'lightpink', position: [10, 0, -15], url: './models/2294472375_24a3b8ef46_o.jpg', link: 1 },
-  { name: 'inside', color: 'lightblue', position: [15, 0, 0], url: './models/Photosphere1.jpg', link: 0 }
+  { name: 'outside', color: 'lightpink', position: [10, 0, -15], url: './models/room-inside.jpg', link: 1 },
+  { name: 'inside', color: 'lightblue', position: [15, 0, 0], url: './models/room-outside.jpg', link: 0 }
   // ...
 ]
+
 
 const Dome = ({ name, position, texture, onClick }) => {
   return (
