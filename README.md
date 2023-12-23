@@ -14,6 +14,7 @@
 |Shoe|change shoe's color by using colorPicker|`react-colorful`<br>`valtio`|
 |Watch|bounce animation + label| `PresentationControls` in `@react-three/drei`|
 |Iphone|change iphone size manually + label|`react-dat-gui`|
+|SkyboxDemo|skybox with relection|`cubeCamera` in `three`|
 |Room|change scene by click text link||
 
 ### libraries
