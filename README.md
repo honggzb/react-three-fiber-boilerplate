@@ -11,7 +11,7 @@
 |---|---|---|
 |Basic|classical demo in official react-three-fiber||
 |RenderTexture|texture animation<br>classical demo in official react-three-fiber|'suspend-react'<br>'@pmndrs/assets'|
-|Shoe|change shoe's color by using colorPicker|`HexColorPicker`<br>`valtio`|
+|Shoe|change shoe's color by using colorPicker|`react-colorful`<br>`valtio`|
 |Watch|bounce animation| `PresentationControls` in `@react-three/drei`|
 |Iphone|change iphone size manually|`react-dat-gui`|
 |Room|change scene by click text link||
