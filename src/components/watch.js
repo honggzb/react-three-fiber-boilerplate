@@ -13,7 +13,7 @@ const Watchmodel = (props) => {
         geometry={nodes.Object005_glass_0.geometry}
         material={materials.glass}
         rotation={[-Math.PI / 2, 0, 0]}>
-          <Html scale={100} rotation={[Math.PI / 2, 0, 0]} position={[200, -350, 10]} transform occlude>
+          <Html scale={100} rotation={[Math.PI / 2, 0, 0]} position={[360, -350, 10]} transform occlude>
             <div className="annotation">
               6.550 $ <span style={{ fontSize: '1.5em' }}>🥲</span>
             </div>
