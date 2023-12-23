@@ -5,7 +5,7 @@
 1. `npm install`
 2. `npm run start`
 
-## pages
+### pages
 
 |page| effect|other libs|
 |---|---|---|
