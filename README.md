@@ -1,4 +1,4 @@
-## React + ThreeJS + react-three-fiber + @react-three/drei + react-colorful + valtio
+## React + ThreeJS + react-three-fiber + @react-three/drei
 
 ### how to use
 
