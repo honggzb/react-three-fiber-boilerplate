@@ -5,6 +5,7 @@ import Shoe from "./components/shoe";
 import Basic from "./components/basic";
 import RTexture from "./components/texture";
 import Room from "./components/room-dome";
+import IPhone from "./components/phone"
 import './App.css';
 
 export default function App() {
@@ -18,6 +19,7 @@ export default function App() {
             <li> <Link to="/rtexxture">RenderTexture</Link> </li>
             <li> <Link to="/shoe">Shoe</Link> </li>
             <li> <Link to="/watch">Watch</Link> </li>
+            <li> <Link to="/iphone">Iphone</Link> </li>
             <li> <Link to="/room">Room</Link> </li>
           </ul>
         </nav>
@@ -27,6 +29,7 @@ export default function App() {
           <Route path="/basic" element={<Basic/>}></Route>
           <Route path="/rtexxture" element={<RTexture/>}></Route>
           <Route path="/room" element={<Room/>}></Route>
+          <Route path="/iphone" element={<IPhone/>}></Route>
           <Route path="/" element={<Home />}></Route>
         </Routes>
       </div>

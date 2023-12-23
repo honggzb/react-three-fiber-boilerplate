@@ -1,0 +1,11 @@
+.gui { 
+    position: absolute;
+    top: 50px;
+    right: 5px;
+    width: 220px;
+    z-index: 5;
+}
+.gui ul li {
+    font-size: small;
+    color: rgb(70, 3, 3);
+}
