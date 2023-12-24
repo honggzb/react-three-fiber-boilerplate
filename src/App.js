@@ -7,6 +7,8 @@ import RTexture from "./components/texture";
 import Room from "./components/room-dome";
 import IPhone from "./components/phone";
 import SkyboxDemo from "./components/skybox";
+import Earth from "./components/earth";
+import Home from "./components/home";
 import './App.css';
 
 export default function App() {
@@ -38,8 +40,4 @@ export default function App() {
       </div>
     </Router>
   );
-}
-
-const Home = () => {
-  return <h2>Welcome to 3D website</h2>;
 }
