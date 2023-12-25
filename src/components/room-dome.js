@@ -22,7 +22,7 @@ const Dome = ({ name, position, texture, onClick }) => {
         <sphereGeometry args={[1.25, 32, 32]} />
         <meshBasicMaterial color="white" />
         <Html center>
-            <a href="#" onClick={onClick}>{name}</a>
+            <button href="#" onClick={onClick}>{name}</button>
         </Html>
       </mesh>
     </group>
