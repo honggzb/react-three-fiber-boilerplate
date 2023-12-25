@@ -10,7 +10,7 @@
 
 |page| effect|other libs|
 |---|---|---|
-|Home|rotating stars|'Points' in '@react-three/drei'|
+|Home|rotating stars|`Points` in `@react-three/drei`|
 |Basic|classical demo in official react-three-fiber||
 |RenderTexture|texture animation<br>classical demo in official react-three-fiber|`suspend-react`<br>`@pmndrs/assets`|
 |Shoe|change shoe's color by using colorPicker|`react-colorful`<br>`valtio`|
