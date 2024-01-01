@@ -1,14 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import Watch from "./components/watch";
-import Shoe from "./components/shoe";
-import Basic from "./components/basic";
-import RTexture from "./components/texture";
-import Room from "./components/room-dome";
-import IPhone from "./components/phone";
-import SkyboxDemo from "./components/skybox";
-import Earth from "./components/earth";
-import Home from "./components/home";
+import { Watch, Shoe, Basic, RTexture, Room, IPhone, SkyboxDemo, Home, CarShow } from './components';
 import './App.css';
 
 export default function App() {
@@ -25,6 +17,7 @@ export default function App() {
             <li> <Link to="/iphone">Iphone</Link> </li>
             <li> <Link to="/skybox">SkyboxDemo</Link> </li>
             <li> <Link to="/room">Room</Link> </li>
+            {/* <li> <Link to="/carshow">CarShow</Link> </li> */}
           </ul>
         </nav>
         <Routes>
@@ -35,6 +28,7 @@ export default function App() {
           <Route path="/room" element={<Room />}></Route>
           <Route path="/iphone" element={<IPhone />}></Route>
           <Route path="/skybox" element={<SkyboxDemo />}></Route>
+          {/* <Route path="/carshow" element={<CarShow />}></Route> */}
           <Route path="/" element={<Home />}></Route>
         </Routes>
       </div>

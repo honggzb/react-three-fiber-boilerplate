@@ -27,11 +27,11 @@ function Stars(props) {
           <h1 style={{ 
             'background': 'linear-gradient(30deg, #c850c0, #ffcc70)',
             'color': 'red',
-            'text-align': 'center',
-            'line-height': '0.8',
-            '-webkit-background-clip': 'text',
-            '-webkit-text-fill-color': 'transparent'}}> 
-            Welcome my playground
+            'textAlign': 'center',
+            'lineHeight': '0.8',
+            'WebkitBackgroundClip': 'text',
+            'WebkitTextFillColor': 'transparent'}}> 
+            Welcome to my playground
         </h1>
       </Html>
     </group>
