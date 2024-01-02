@@ -17,7 +17,7 @@
 |Watch|bounce animation + label| `PresentationControls` in `@react-three/drei`|
 |Iphone|change iphone size manually + label|`react-dat-gui`|
 |SkyboxDemo|skybox with relection|`cubeCamera` in `three`|
-|Airplane Guide|`lamina` <- environment effect<br>`ScrollControls`<- following curve line on scroll events<br>`cameraGroup`<- following animation|
+|Airplane Guide|`lamina` <br>`ScrollControls`<br>`cameraGroup`|<- environment effect<br><- following curve line on scroll events<br><- following animation|
 |Room|change scene by click text link||
 
 ### libraries
