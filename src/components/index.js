@@ -8,6 +8,7 @@ import SkyboxDemo from "./skybox";
 //import Earth from "./earth";
 import Home from "./home";
 import CarShow from "./carShow/carShow";
+import GuildLine from "./guideLine/guideLine";
 
 export {
     Watch,
@@ -18,5 +19,6 @@ export {
     IPhone,
     SkyboxDemo,
     Home,
-    CarShow
+    CarShow,
+    GuildLine
 }

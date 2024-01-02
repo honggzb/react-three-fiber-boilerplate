@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import { Watch, Shoe, Basic, RTexture, Room, IPhone, SkyboxDemo, Home, CarShow } from './components';
+import { Watch, Shoe, Basic, RTexture, Room, IPhone, SkyboxDemo, Home, CarShow, GuildLine } from './components';
 import './App.css';
 
 export default function App() {
@@ -16,6 +16,7 @@ export default function App() {
             <li> <Link to="/watch">Watch</Link> </li>
             <li> <Link to="/iphone">Iphone</Link> </li>
             <li> <Link to="/skybox">SkyboxDemo</Link> </li>
+            <li> <Link to="/airplane">Airplane Guide</Link> </li>
             <li> <Link to="/room">Room</Link> </li>
             {/* <li> <Link to="/carshow">CarShow</Link> </li> */}
           </ul>
@@ -28,6 +29,7 @@ export default function App() {
           <Route path="/room" element={<Room />}></Route>
           <Route path="/iphone" element={<IPhone />}></Route>
           <Route path="/skybox" element={<SkyboxDemo />}></Route>
+          <Route path="/airplane" element={<GuildLine />}></Route>
           {/* <Route path="/carshow" element={<CarShow />}></Route> */}
           <Route path="/" element={<Home />}></Route>
         </Routes>
