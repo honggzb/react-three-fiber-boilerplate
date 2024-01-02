@@ -16,7 +16,7 @@ export default function App() {
             <li> <Link to="/watch">Watch</Link> </li>
             <li> <Link to="/iphone">Iphone</Link> </li>
             <li> <Link to="/skybox">SkyboxDemo</Link> </li>
-            <li> <Link to="/airplane">Airplane Guide</Link> </li>
+            <li> <Link to="/airplane">Airplane Following</Link> </li>
             <li> <Link to="/room">Room</Link> </li>
             {/* <li> <Link to="/carshow">CarShow</Link> </li> */}
           </ul>
